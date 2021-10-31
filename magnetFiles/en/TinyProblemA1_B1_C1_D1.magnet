@@ -1,0 +1,22 @@
+{
+  "trace": "..\\..\\traces\\pre_Exp1.trace",
+  "features": [
+    {
+      "feature": "AP1",
+      "extracts": [
+        {
+          "src": {
+            "class": "E",
+            "id": null
+          }, 
+          "dst": {
+            "class": "C",
+            "id": null
+          }, 
+          "type": "Container-Component",
+          "order": "0"
+        }
+      ]
+    }
+  ]
+}

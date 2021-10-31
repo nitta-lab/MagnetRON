@@ -1,0 +1,63 @@
+{
+  "trace": "..\\..\\traces\\ArgoUMLBenchmarkWithMoreStandardClasses.trace",
+  "features": [
+    {
+      "feature": "ArgoUML図形削除機能",
+      "extracts": [
+        {
+          "src": {
+            "class": "public void org.argouml.uml.diagram.ui.ActionRemoveFromDiagram.actionPerformed(",
+            "id": null
+          }, 
+          "dst": {
+            "class": "org.argouml.uml.diagram.static_structure.ui.FigClass",
+            "id": null
+          }, 
+          "type": "This-Another",
+          "order": "0"
+        },
+        {
+          "src": {
+            "class": "java.util.Vector",
+            "id": "450474599"
+          }, 
+          "dst": {
+            "class": "org.argouml.uml.diagram.static_structure.ui.FigClass",
+            "id": "1675174935"
+          }, 
+          "type": "Container-Component(Collection)", 
+          "order": "0"
+        }
+      ]
+    },
+    {
+      "feature": "ArgoUML図形選択機能",
+      "extracts": [
+        {
+          "src": {
+            "class": "java.util.ArrayList",
+            "id": "125345735"
+          }, 
+          "dst": {
+            "class": "org.argouml.uml.diagram.static_structure.ui.SelectionClass",
+            "id": "1672744985"
+          }, 
+          "type": "Container-Component(Collection)",
+          "order": "0"
+        },
+      	{
+          "src": {
+            "class": "org.argouml.uml.diagram.static_structure.ui.SelectionClass",
+            "id": "1672744985"
+          }, 
+          "dst": {
+            "class": "org.argouml.uml.diagram.static_structure.ui.FigClass",
+            "id": "1675174935"
+          }, 
+          "type": "Container-Component",
+          "order": "0"
+        }
+      ]
+    }
+  ]
+}

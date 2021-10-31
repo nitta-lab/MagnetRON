@@ -1,0 +1,72 @@
+{
+  "trace": "..\\..\\traces\\Eclipse.trace",
+  "format": "PlainText",
+  "features": [
+    {
+      "feature": "Eclipseデバッグ機能",
+      "extracts": [
+        {
+          "src": {
+            "class": "public void org.eclipse.jdt.internal.debug.core.EventDispatcher.run(",
+            "id": "629542817"
+          }, 
+          "dst": {
+            "class": "org.eclipse.jdi.internal.event.EventSetImpl",
+            "id": "1400795012"
+          }, 
+          "type": "This-Another", 
+          "order": "0"
+        },
+        {
+          "src": {
+            "class": "public boolean org.eclipse.jdt.internal.debug.core.breakpoints.JavaBreakpoint.handleBreakpointEvent(",
+            "id": "666051245"
+          }, 
+          "dst": {
+            "class": "org.eclipse.jdi.internal.event.BreakpointEventImpl",
+            "id": "907205473"
+          }, 
+          "type": "This-Another",
+          "order": "0",
+          "connect": true
+        },
+        {
+          "src": {
+            "class": "org.eclipse.jdi.internal.event.EventIteratorImpl",
+            "id": "239180057"
+          }, 
+          "dst": {
+            "class": "java.util.ArrayList$ListItr",
+            "id": "316502076"
+          }, 
+          "type": "Container-Component",
+          "order": "0"
+        },
+        {
+          "src": {
+            "class": "java.util.ArrayList",
+            "id": "1121573201"
+          }, 
+          "dst": {
+            "class": "org.eclipse.jdi.internal.event.BreakpointEventImpl",
+            "id": "907205473"
+          }, 
+          "type": "Container-Component(Collection)",
+          "order": "0"
+        },
+      	{
+          "src": {
+            "class": "public com.sun.jdi.event.EventSet org.eclipse.jdi.internal.event.EventQueueImpl.remove(",
+            "id": null
+          }, 
+          "dst": {
+            "class": "org.eclipse.jdi.internal.jdwp.JdwpCommandPacket",
+            "id": "859038530"
+          }, 
+          "type": "This-Another",
+          "order": "0"
+        }
+      ]
+    }
+  ]
+}

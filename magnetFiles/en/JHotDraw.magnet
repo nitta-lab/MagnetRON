@@ -1,0 +1,87 @@
+{
+  "trace": "..\\..\\traces\\jHotDrawBenchmarkWithMoreStandardClasses.trace",
+  "features": [
+    {
+      "feature": "JHotDraw (Transform Figure)",
+      "extracts": [
+        {
+          "src": {
+            "class": "java.util.HashSet",
+            "id": "176893671"
+          }, 
+          "dst": {
+            "class": "org.jhotdraw.draw.RectangleFigure",
+            "id": "1952912699"
+          }, 
+          "type": "Container-Component(Collection)",
+          "order": "0"
+        }
+      ]
+    },
+    {
+      "feature": "JHotDraw (Select Figure)",
+      "extracts": [
+        {
+          "src": {
+            "class": "org.jhotdraw.draw.tool.DefaultDragTracker",
+            "id": "758826749"
+          }, 
+          "dst": {
+            "class": "org.jhotdraw.draw.RectangleFigure",
+            "id": "1952912699"
+          }, 
+          "type": "Container-Component",
+          "order": "1"
+        },
+        {
+          "src": {
+            "class": "java.util.HashSet",
+            "id": "1378082106"
+          }, 
+          "dst": {
+            "class": "org.jhotdraw.draw.RectangleFigure",
+            "id": "1952912699"
+          }, 
+          "type": "Container-Component(Collection)", 
+          "order": "0"
+        },
+        {
+          "src": {
+            "class": "org.jhotdraw.draw.tool.DelegationSelectionTool",
+            "id": "599587451"
+          }, 
+          "dst": {
+            "class": "org.jhotdraw.draw.tool.DefaultDragTracker",
+            "id": "758826749"
+          }, 
+          "type": "Container-Component", 
+          "order": "1"
+        },
+        {
+          "src": {
+            "class": "java.util.LinkedHashSet",
+            "id": "1787265837"
+          }, 
+          "dst": {
+            "class": "org.jhotdraw.draw.RectangleFigure",
+            "id": "1952912699"
+          }, 
+          "type": "Container-Component(Collection)", 
+          "order": "0"
+        },
+        {
+          "src": {
+            "class": "org.jhotdraw.draw.tool.DefaultDragTracker",
+            "id": "758826749"
+          }, 
+          "dst": {
+            "class": "org.jhotdraw.draw.DefaultDrawingEditor",
+            "id": "1859859960"
+          }, 
+          "type": "Container-Component", 
+          "order": "3"
+        }
+      ]
+    }
+  ]
+}

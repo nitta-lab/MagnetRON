@@ -1,0 +1,22 @@
+{
+  "trace": "..\\..\\traces\\pre_Exp7.trace",
+  "features": [
+    {
+      "feature": "AP6",
+      "extracts": [
+        {
+          "src": {
+            "class": "E",
+            "id": null
+          }, 
+          "dst": {
+            "class": "C",
+            "id": null
+          }, 
+          "type": "Container-Component",
+          "order": "0"
+        }
+      ]
+    }
+  ]
+}

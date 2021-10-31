@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="src" path="res"/>
+	<classpathentry kind="con" path="org.eclipse.pde.core.requiredPlugins"/>
+	<classpathentry kind="lib" path="lib/jgrapht-ext-1.3.0.jar" sourcepath="C:/Users/Hongo Aki/Downloads/jgrapht-master/jgrapht-master/jgrapht-ext"/>
+	<classpathentry kind="lib" path="lib/jgraphx-3.9.8.1.jar" sourcepath="lib/jgraphx-3.9.8.1-sources.jar"/>
+	<classpathentry kind="lib" path="lib/jgrapht-core-1.3.0.jar" sourcepath="C:/Users/Hongo Aki/Downloads/jgrapht-master/jgrapht-master/jgrapht-core"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.junit.JUNIT_CONTAINER/5"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
